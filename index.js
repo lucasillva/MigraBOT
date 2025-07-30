@@ -55,3 +55,9 @@ client.on("messageCreate", async (message) => {
 });
 
 client.login(process.env.DISCORD_TOKEN);
+
+import express from "express";
+const app = express();
+app.get("/", (req, res) => res.send("MigraBOT está rodando!"));
+app.listen(3000, () => console.log("🌐 Web Service ativo na porta 3000"));
+
