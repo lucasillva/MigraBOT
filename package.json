@@ -1,6 +1,7 @@
 {
   "name": "migrabot",
   "version": "1.0.0",
+  "description": "MigraBOT - Bot para Discord usando Gemini API",
   "main": "index.js",
   "type": "module",
   "scripts": {
